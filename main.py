@@ -2,8 +2,8 @@
 # and it splits the score based on the <words> tag with text in format PT:X where X is the elapsed time in seconds.
 # The program should keep tempo, staff, and clef information on each cut.
 # The program should create a new MusicXML file for each cut.
-# The name of the new file should be the same as the original file with the addition of the cut number.
-# For example, if the original file is named "song.xml", the new files should be named "song_1.xml", "song_2.xml", etc.
+# The name of each new partial file should be the same as the original file with the addition of the cut number.
+# For example, if the original file is named "song.musicxml", the new files should be named "song_1.musicxml", "song_2.musicxml", etc.
 
 import sys
 import xml.etree.ElementTree as ET
